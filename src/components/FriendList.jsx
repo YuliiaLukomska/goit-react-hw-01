@@ -1,7 +1,9 @@
 import FriendListItem from './FriendListItem';
+import css from './FriendList.module.css';
+
 const FriendList = ({ friends }) => {
   return (
-    <ul>
+    <ul className={css.friendsWrapper}>
       {friends.map(friend => {
         return (
           <li key={friend.id}>
@@ -18,11 +20,3 @@ const FriendList = ({ friends }) => {
 };
 
 export default FriendList;
-
-{
-  /* <ul>
-  {books.map(book => {
-    return <li key={book.id}>{book.name}</li>;
-  })}
-</ul>; */
-}
