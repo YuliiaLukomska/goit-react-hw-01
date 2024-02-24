@@ -13,15 +13,15 @@ const Profile = ({ name, tag, location, image, stats }) => {
       <ul className={css.activityInfoWrapper}>
         <li className={css.activitySection}>
           <span>Followers</span>
-          <span>{stats.followers}</span>
+          <span className={css.activityNumbers}>{stats.followers}</span>
         </li>
         <li className={css.activitySection}>
           <span>Views</span>
-          <span>{stats.views}</span>
+          <span className={css.activityNumbers}>{stats.views}</span>
         </li>
         <li className={css.activitySection}>
           <span>Likes</span>
-          <span>{stats.likes}</span>
+          <span className={css.activityNumbers}>{stats.likes}</span>
         </li>
       </ul>
     </div>

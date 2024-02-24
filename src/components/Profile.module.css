@@ -49,3 +49,6 @@
 .activitySection:last-child {
   border-bottom-right-radius: 10px;
 }
+.activityNumbers {
+  font-weight: 500;
+}
