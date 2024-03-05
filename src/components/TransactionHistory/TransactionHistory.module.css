@@ -9,12 +9,6 @@
 }
 .tableHead {
   composes: tableCell;
-
-  /* border: black solid 1px;
-  padding: 2px 70px;
-  text-align: center;
-  text-transform: capitalize; */
-
   background-color: grey;
   color: white;
 }
